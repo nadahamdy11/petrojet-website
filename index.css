@@ -35,6 +35,7 @@ nav .link a{
 }
 nav .img{
     margin-top: 5px;
+    width :350px; height :100px;
 }
 .h:hover{
     color: #db6217;
@@ -48,7 +49,7 @@ header{
     display: flex;
     margin-left: 80px;
     margin-top: 100px;
-
+    
 }
 header .photo{
     animation-name: logo;
@@ -56,6 +57,10 @@ header .photo{
     animation-iteration-count: infinite;
     width: 50%;
 
+}
+header .photo img{
+    width :500px;
+    height:400px;
 }
 @keyframes logo{
     from{
@@ -116,6 +121,8 @@ section .div1-section img{
     margin-left: 560px;
     margin-top: 10px;
     border-radius: 20px;
+    width :80px;
+    height :80px;
 }
 section .div1-section h2{
     float: right;
@@ -139,6 +146,8 @@ section .div2-section img{
     margin-left: 560px;
     margin-top: 10px;
     border-radius: 20px;
+    width :80px;
+    height :80px;
 }
 section .div2-section h2{
     float: right;
@@ -179,6 +188,9 @@ section .div2-section p{
     color:#5F6262;  
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px; 
+}
+.non-basic-div1 img{
+    width :600px;height :500px;
 }
 .advice-div{
     height: 1000px;
@@ -230,6 +242,8 @@ section .div2-section p{
 }
 .div1 img{
     margin-left: 90px;
+    width :120px;
+    height :90px;
 }
 .div2 h4,.div3 h4,.div4 h4,.div5 h4,.div6 h4,.div7 h4,.div8 h4,.div9 h4,.div10 h4,.div11 h4,.div12 h4{
     font-size: 20px;
@@ -239,10 +253,14 @@ section .div2-section p{
 }
 .div2 img{
     margin-left: 100px;
+    width :120px;
+    height :90px;
 }
 .div2 img,.div3 img,.div4 img,.div5 img,.div6 img,.div7 img,.div8 img,.div9 img,.div10 img,.div11 img,.div12 img{
     margin-left: 100px;
 margin-top: 10px;
+width :120px;
+    height :90px;
 }
 .conect-us{
     height: 200px;
@@ -283,6 +301,7 @@ margin-top: 10px;
 .final .second hr{
     width:695px;
     height: 2px;
+    margin-top: 5px;
     background-color:#db6217;
 }
 .final .first form h3{
@@ -351,7 +370,7 @@ form .nn{
 .second p{
     margin-left: 370px;
     font-size: 20px;
-    margin-top: 30x;
+    margin-top: 30px;
 }
 #info{
     margin-left: 510px;
@@ -360,6 +379,8 @@ form .nn{
 iframe{
     margin-left: 20px;
     margin-top: 20px;
+    width:650px; 
+    height:270px;
 }
 footer{
     height: 400px;
@@ -402,5 +423,321 @@ footer h3{
     margin-top: 20px;
     margin-left: 20px;
 }
+
+@media (max-width:767px) { 
+    .link{
+        width: 50%;
+        margin-left: -40px;
+    }
+    nav .img{
+        width: 20px;
+        height: 20px;
+        margin-right: 130px;
+    }
+    .link button{
+        width: 90px;
+    height:30px;
+    margin-left: 10px;
+    margin-right: -50px;
+    }
+    nav .link a{
+        margin-left: 5px;
+        font-size: 15px;
+    
+    }
+    header{
+        height: 700px;
+        margin-left: 80px;
+        margin-top: 50px;
+        display: block;
+    }
+    header .photo{
+        animation-name: logo;
+        animation-duration: 2s;
+        animation-iteration-count:unset;
+        width: 30%;
+    
+    }
+    header .photo img{
+        width :400px;
+        height:300px;
+    }
+    header .text{
+        width: 50%;
+    }
+    header .text h1{
+        font-size: 50px;
+        margin-top: 20px;
+        margin-left: 320px;
+    }
+    header .text h5{
+        font-size: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-top: 10px;
+        width: 500px;
+        margin-left: 10px;
+        direction:rtl;
+    }
+    header .text button{
+        font-size: 20px;
+        margin-top: 30px;
+        margin-left: 410px;
+    }  
+section{
+    display: block;
+    height: 500px;
+    margin-left: 40px;
+}
+section .div1-section,.div2-section{
+    height:200px;
+    width:500px;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+section .div1-section img{
+    margin-left: 440px;
+    margin-top: 10px;
+    border-radius: 10px;
+    width :50px;
+    height :50px;
+}
+section .div1-section h2{
+    float: right;
+    margin-right: 10px;
+    font-size: 15px;
+    margin-top: 10px;
+
+}
+section .div1-section p{
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+    color:#5F6262;   
+    direction:rtl;
+
+}
+
+section .div2-section img{
+    margin-left: 440px;
+    margin-top: 10px;
+    border-radius: 10px;
+    width :50px;
+    height :50px;
+}
+section .div2-section h2{
+    float: right;
+    margin-right: 10px;
+    margin-top: 15px;
+    color:#5F6262;  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+
+}
+section .div2-section p{
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+    color:#5F6262;   
+    direction:rtl;
+
+}
+.basic-div{
+    height: 700px;
+    display:block;
+}
+.non-basic-div2{
+    width: 25%;
+    margin-left: 20px;
+
+}
+.non-basic-div2 h2{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.non-basic-div2 p,h2{
+    width: 600px;
+    direction: rtl;
+    margin-top: 15px;
+    color:#5F6262;  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px; 
+}
+.non-basic-div1 img{
+    margin-top: 50px;
+    margin-left: 130px;
+    width :400px;
+    height :300px;
+}
+
+
+
+.advice-div{
+    height: 2600px;
+    background-color:#E4EAEA;
+
+}
+
+#tr{
+    margin-left:-190px;
+
+}
+.advice-div h6{
+    padding-top: 20px;
+    font-size: 20px;
+}
+.big1 ,.big2,.big3{
+    display: block;
+    margin-left: 70px;
+    margin-right: 70px;
+
+}
+.div1,.div2,.div3,.div4,.div5,.div6,.div7,.div8
+,.div9,.div10,.div11,.div12 {
+    width: 500px;
+    height: 150px;
+    background-color:white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 5px;
+    margin-right: 20px;
+
+
+}
+.div1 h4{
+    font-size: 20px;
+    color: #3A3D3D;
+    text-align: center;
+
+}
+.div1 img{
+    margin-left: 170px;
+    width :120px;
+    height :90px;
+}
+.div2 h4,.div3 h4,.div4 h4,.div5 h4,.div6 h4,.div7 h4,.div8 h4,.div9 h4,.div10 h4,.div11 h4,.div12 h4{
+    font-size: 20px;
+    color: #3A3D3D;
+    text-align: center;
+
+}
+.div2 img{
+    margin-left: 100px;
+    width :120px;
+    height :90px;
+}
+.div2 img,.div3 img,.div4 img,.div5 img,.div6 img,.div7 img,.div8 img,.div9 img,.div10 img,.div11 img,.div12 img{
+    margin-left: 190px;
+margin-top: 10px;
+width :120px;
+    height :90px;
+}
+.final{
+    display:block;
+    height: 1800px;
+}
+.final .first{
+    height: 700px;
+    width: 500px;
+    margin-left: 70px;
+    margin-bottom: 50px;
+
+}
+.final .second{
+    height: 700px;
+    width: 500px;
+    margin-left: 70px;
+}
+.final .first hr{
+    width:500px;
+}
+.final .second hr{
+    width:500px;
+    margin-top: 55px;
+}
+.final .first form h3{
+    font-size: 20px;
+    padding: 20px;
+}
+.final .first form #fname,#email{
+    width: 270px;
+    height: 40px;
+    margin-left:10px;
+    margin-right:10px;
+
+}
+.name {
+margin-left: 190px;
+}
+#subject{
+    width: 470px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+.final .first form #ma{
+    width: 400px;
+}
+.final .first form button{
+    margin-left: 200px;
+}
+.second .location {
+        width: 120px;
+        height: 100px;
+        margin-top: -70px;
+        border-radius: 50%; 
+        margin-left: 3px;
+}
+
+.second h2{
+    margin-top: 20px;
+    font-size: 30px;
+    margin-left: -130px;
+}
+.second p{
+    margin-left: 300px;
+    margin-top: 15px;
+}
+#info{
+    margin-left: 310px;
+    margin-top: 10px;
+}
+iframe{
+    margin-left: 20px;
+    margin-top: 20px;
+    width:350px;
+    height:220px;
+}
+footer{
+    height: 400px;
+    background-color:#E4EAEA;
+    
+
+}
+footer h1{
+    text-align: center;
+    padding-top: 40px;
+}
+footer img{
+    margin-left: 10px;
+    border: 40px 40px;
+    background-color:#b8c2c2;
+}
+.pp{
+    margin-left: 200px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+footer .horizental-line{
+    width: 100%;
+    margin-left: 0%;
+}
+b{
+    color: aqua;
+}
+
+    }
 
 

@@ -442,6 +442,8 @@ footer h3{
         margin-left: 50px;
         margin-top: 40px;
         display: block;
+            margin-bottom: 50px;
+
     }
     header .photo{
         animation-name: logo;

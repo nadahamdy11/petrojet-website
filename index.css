@@ -482,11 +482,11 @@ section{
         margin-top: 100px;
 
     display: block;
-    height: 550px;
+    height: 700px;
     margin-left: 25px;
 }
 section .div1-section,.div2-section{
-    height:250px;
+    height:300px;
     width:310px;
     margin-left: 10px;
     margin-top: 10px;
@@ -650,7 +650,7 @@ width :120px;
 
 }
 .final .second{
-    height: 622px;
+    height: 650px;
     width: 350px;
     margin-left: 10px;
 }
@@ -716,7 +716,7 @@ iframe{
     height:220px;
 }
 footer{
-    height: 400px;
+    height: 420px;
     background-color:#E4EAEA;
     width: 100%;
     

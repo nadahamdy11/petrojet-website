@@ -107,6 +107,7 @@ header .text button{
     
 }
 section{
+        margin-top: 100px;
     display: flex;
     height: 400px;
     margin-left: 70px;

@@ -7,6 +7,7 @@ nav{
     display: flex;
     justify-content:space-around;
     height: 110px;
+    width: 100%;
     position:sticky ;
     top:0;
     
@@ -198,18 +199,14 @@ section .div2-section p{
 
 }
 .advice-div h1{
-    font-weight: 900;
-    color:#3A3D3D;
     text-align: center;
+margin-bottom: 20px;
+padding-top: 20px;
+color: rgba(0, 0, 0, .6);
+text-shadow: -0px -20px rgba(0, 0,0, 0.06);
 }
-#tr{
-    color:rgba(0,0,0,0.1) ;
-    font-size: 60px;
-    direction: rtl;
-    margin-left: 260px;
-    margin-bottom: -30px;
 
-}
+
 .advice-div h6{
     color: #3A3D3D;
     text-align: center;
@@ -266,9 +263,11 @@ width :120px;
     height: 200px;
 }
 .conect-us h1{
-    font-weight: 900;
-    color:#3A3D3D;
     text-align: center;
+margin-bottom: 20px;
+padding-top: 20px;
+color: rgba(0, 0, 0, .6);
+text-shadow: -0px -20px rgba(0, 0,0, 0.06);
 }
 .conect-us h6{
     color: #3A3D3D;
@@ -424,31 +423,23 @@ footer h3{
     margin-left: 20px;
 }
 
-@media (max-width:767px) { 
-    .link{
-        width: 30%;
-        margin-left: -80px;
-
-    }
+@media (max-width:750px) { 
+    
     nav .img{
-        width: 20px;
-        height: 20px;
-        margin-right: 130px;
+        width:15px;
+        height: 10px;
+        margin-right:250px;
     }
     .link button{
-        width: 100px;
-    height:50px;
-    margin-left: 10px;
-    margin-right: -60px;
+        display: none;
     }
     nav .link a{
-        margin-left: 5px;
-        font-size: 15px;
+        display: none;
     
     }
     header{
-        height: 700px;
-        margin-left: -60px;
+        height: 600px;
+        margin-left: 50px;
         margin-top: 40px;
         display: block;
     }
@@ -460,8 +451,8 @@ footer h3{
     
     }
     header .photo img{
-        width :350px;
-        height:300px;
+        width :250px;
+        height:200px;
     }
     header .text{
         width: 40%;
@@ -469,36 +460,36 @@ footer h3{
     header .text h1{
         font-size: 40px;
         margin-top: 20px;
-        margin-left: 150px;
+        margin-left: 130px;
     }
     header .text h5{
         font-size: 20px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         margin-top: 10px;
         width: 250px;
-        margin-left: 70px;
+        margin-left: 30px;
         direction:rtl;
     }
     header .text button{
         font-size: 20px;
         margin-top: 30px;
-        margin-left: 210px;
+        margin-left: 190px;
     }  
 section{
     display: block;
-    height: 500px;
-    margin-left: 5px;
+    height: 550px;
+    margin-left: 25px;
 }
 section .div1-section,.div2-section{
-    height:350px;
-    width:250px;
+    height:250px;
+    width:310px;
     margin-left: 10px;
     margin-top: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 
 }
 section .div1-section img{
-    margin-left: 190px;
+    margin-left: 250px;
     margin-top: 10px;
     border-radius: 10px;
     width :50px;
@@ -522,7 +513,7 @@ section .div1-section p{
 }
 
 section .div2-section img{
-    margin-left: 190px;
+    margin-left: 250px;
     margin-top: 10px;
     border-radius: 10px;
     width :50px;
@@ -546,23 +537,23 @@ section .div2-section p{
 
 }
 .basic-div{
-    margin-top: 50px;
-    height: 1500px;
+    margin-top: 30px;
+    height: 1200px;
     display:block;
 }
 .non-basic-div2{
     width: 25%;
-    margin-left: 10px;
-    margin-top: 100px;
+    margin-left: 70px;
+    margin-top: 40px;
 
 }
 .non-basic-div2 h2{
     margin-top: 50px;
     font-size: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 .non-basic-div2 p,h2{
-    margin-top: 50px;
+    margin-top: 40px;
     width: 270px;
     direction: rtl;
     color:#5F6262;  
@@ -572,42 +563,40 @@ section .div2-section p{
 
 
 .non-basic-div1 img{
-    margin-top: 50px;
-    margin-left: 10px;
-    width :280px;
+    margin-top: 30px;
+    margin-left: 35px;
+    width :300px;
     height :300px;
 }
 
 
 
+
+
 .advice-div{
-    height: 3000px;
+    height: 2800px;
     background-color:#E4EAEA;
 
 }
 
-#tr{
-    margin-left:-50px;
 
-}
 .advice-div h6{
     padding-top: 20px;
     font-size: 20px;
 }
 .big1 ,.big2,.big3{
     display: block;
-    margin-left: 70px;
-    margin-right: 70px;
+    margin-left: 5px;
+    margin-right: 10px;
 
 }
 .div1,.div2,.div3,.div4,.div5,.div6,.div7,.div8
 ,.div9,.div10,.div11,.div12 {
-    width: 200px;
+    width: 320px;
     height: 150px;
     background-color:white;
     margin-top: 30px;
     margin-bottom: 30px;
-    margin-left: -5px;
  
 
 }
@@ -618,7 +607,7 @@ section .div2-section p{
 
 }
 .div1 img{
-    margin-left: 40px;
+    margin-left: 100px;
     width :120px;
     height :90px;
 }
@@ -629,20 +618,24 @@ section .div2-section p{
 
 }
 .div2 img{
-    margin-left: 4px;
+    margin-left: 10px;
     width :120px;
     height :90px;
 }
 .div2 img,.div3 img,.div4 img,.div5 img,.div6 img,.div7 img,.div8 img,.div9 img,.div10 img,.div11 img,.div12 img{
-    margin-left:40px;
+    margin-left:100px;
 margin-top: 10px;
 width :120px;
     height :90px;
 }
+.conect-us h1{
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
 .final{
     margin-top: 50px;
     display:block;
-    height: 2000px;
+    height: 1700px;
 }
 .final .first{
     height: 700px;
@@ -652,7 +645,7 @@ width :120px;
 
 }
 .final .second{
-    height: 700px;
+    height: 622px;
     width: 350px;
     margin-left: 10px;
 }
@@ -718,7 +711,7 @@ iframe{
     height:220px;
 }
 footer{
-    height: 600px;
+    height: 400px;
     background-color:#E4EAEA;
     width: 100%;
     
@@ -729,18 +722,18 @@ footer h1{
     padding-top: 40px;
 }
 footer img{
-    margin-left: 10px;
+    margin-left: 5px;
     border: 40px 40px;
     background-color:#b8c2c2;
 }
 .pp{
-    margin-left: 50px;
+    margin-left: 60px;
     margin-top: 50px;
     margin-bottom: 100px;
 }
 footer .horizental-line{
-    width: 80%;
-    margin-left: 10px;
+    width: 90%;
+    margin-left: 15px;
     
 }
 b{
